@@ -47,7 +47,7 @@ def glue(values, glues):
     return result
 
 
-def get_numbers(stop=9):
+def get_numbers(stop=highest_number):
     values = range(1, stop + 1)
     one_zeros = get_ones_zeros(stop)
     result = []
